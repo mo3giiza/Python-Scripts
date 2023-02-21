@@ -9,7 +9,7 @@ port = 9001
 # 1. create new socket that we got from socket library  #
 # 2. socket.AF_INET to define that is internet socket   #
 #    for internet communications for example Bluetooth, #
-#    Infrared and .... etc.							    #
+#    Infrared and .... etc.				#
 # 3. socket.SOCK_STREAM define it's stream based socket #
 #    and it's connection orinted using TCP Protocol     #
 #########################################################
