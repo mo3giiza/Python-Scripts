@@ -56,7 +56,7 @@ else:
 	print("[!][!] MAC address didn't changed.")
 
 
-''' Output
+''' Usage
 
 └─$ sudo python3 MAC-Changer.py -i eth0 -m 00:55:63:44:55:66
 [+] Current MAC Addr = b'76:22:43:94:73:44'
