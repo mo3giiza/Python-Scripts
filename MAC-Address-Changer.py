@@ -1,6 +1,9 @@
-#########################################################################################################################
-##################################### Note this script will only used in python3 !! #####################################
-#########################################################################################################################
+print("#######################################################")
+print("#######################################################")
+print("############ MAC Address Changer By ze2pac ############")
+print("#######################################################")
+print("#######################################################")
+
 # pip install subprocess
 # pip install optparse
 # pip install re
@@ -79,6 +82,6 @@ Usage: MAC-Changer.py [options]
 
 MAC-Changer.py: error: [-][-] Please enter a new MAC address, use -h for more information
 
-Note if you want to use this script with python2 
-In line 41,50 and 55 just remove str()
+Note this script will only used in python3 !!, if you want to use this script with python2 .
+In line 41,50 and 55 just remove str() .
 '''
