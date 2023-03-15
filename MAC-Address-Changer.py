@@ -80,5 +80,5 @@ Usage: MAC-Changer.py [options]
 MAC-Changer.py: error: [-][-] Please enter a new MAC address, use -h for more information
 
 Note if you want to use this script with python2 
-In line 41,50 and 55 just remove str() that 
+In line 41,50 and 55 just remove str()
 '''
