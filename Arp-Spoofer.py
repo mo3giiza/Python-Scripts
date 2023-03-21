@@ -85,4 +85,14 @@ except IndexError:
     print("\n[!] Couldn't find this target..\n")
 
 
-##         python Arp-Spoofer.py -t target_ip_address -g gateway_ip_address
+## python Arp-Spoofer.py -t target_ip_address -g gateway_ip_address
+
+'''
+Note before using the tool you should enable ip forwarding, by hitting this command
+
+┌──(azab㉿kali)-[~]
+└─$ sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+
+To act as the network router and not get the target to lose the connection
+
+'''
