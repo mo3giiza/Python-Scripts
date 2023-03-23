@@ -52,7 +52,7 @@ def parsing_args():
 options = parsing_args()
 
 try:
-	sniff(options.interface)
+    sniff(options.interface)
 
 except KeyboardInterrupt:
     print("\n[-] Detected CTRL + C .. Quitting\n")
@@ -61,8 +61,8 @@ except PermissionError:
     print("\n[-] Operation not permitted, Run the script as superuser ..\n")
 
 except TypeError:
-	print("\n[-] a bytes-like object is required, not 'str' ..\n")
+    print("\n[-] a bytes-like object is required, not 'str' ..\n")
 
 except OSError:
-	print("\n[-] No such interface ..")
+    print("\n[-] No such interface ..")
 
