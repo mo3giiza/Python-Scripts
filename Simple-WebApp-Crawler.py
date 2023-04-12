@@ -40,3 +40,24 @@ def crawl(target_url):
 options = parsing_args()
 crawl(options.target)
 
+'''
+┌──(azab㉿kali)-[~/Python-Scripts]
+└─$ python3 Simple-WebApp-Crawler.py -u http://testphp.vulnweb.com/ 
+http://testphp.vulnweb.com/style.css
+http://testphp.vulnweb.com/index.php
+http://testphp.vulnweb.com/categories.php
+http://testphp.vulnweb.com/artists.php
+http://testphp.vulnweb.com/disclaimer.php
+http://testphp.vulnweb.com/cart.php
+http://testphp.vulnweb.com/guestbook.php
+http://testphp.vulnweb.com/AJAX/index.php
+http://testphp.vulnweb.com/styles.css
+http://testphp.vulnweb.com/
+http://testphp.vulnweb.com/login.php
+http://testphp.vulnweb.com/signup.php
+http://testphp.vulnweb.com/userinfo.php
+http://testphp.vulnweb.com/privacy.php
+http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+http://testphp.vulnweb.com/hpp/
+http://testphp.vulnweb.com/?pp=12
+'''
